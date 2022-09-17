@@ -1,0 +1,3 @@
+Now it is time for the first training iteration! Although the GUI provides some guidance, we do not follow their prompting exactly. We will first follow the "Extract Frames", "Label Data", and "Create Training Dataset" tabs before we submit to the high-powered computing grid, Slurm. 
+
+Under the "Extract Frames" tab, make sure that the config.yaml file for your project is correct; it should have been automatically created by DLC. We pretty much keep the preset conditions here, but you can note a few things. We are using 
