@@ -25,3 +25,9 @@ Now it is time to label your rat. The labeling system is a bit finicky, but it i
 <img width="344" alt="image" src="https://user-images.githubusercontent.com/86625869/190881073-8329db73-579c-41b1-9e94-af76b7dd3c8e.png">
 
 Click "save" and "quit" once you have gone through all the frames. 
+
+Navigate to the "create training set" tab and click "OK". After a minute or so, you should see this notice pop up in terminal: 
+
+<img width="926" alt="image" src="https://user-images.githubusercontent.com/86625869/190882851-09a99077-0a09-478c-b985-b6dcec3d7a32.png">
+
+You are ready to submit your work to Slurm! 
