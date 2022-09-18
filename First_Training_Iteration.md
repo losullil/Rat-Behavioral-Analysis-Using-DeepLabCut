@@ -17,3 +17,11 @@ If you click over to the "Label Frames" tab, the "Labeling Toolbox" window shoul
 <img width="1148" alt="image" src="https://user-images.githubusercontent.com/86625869/190880319-aba55a1e-ea41-4f9b-855e-994a6e73d82d.png">
 
 Click "Load Frames", and you should be prompted with a folder where your labeling frames are stored. Click "Open", and after a second, an image of your OFT should appear in the Labeling Toolbox!
+
+<img width="1094" alt="image" src="https://user-images.githubusercontent.com/86625869/190880937-1ea34c60-37a6-4600-8a8e-e3d3d1099870.png">
+
+Now it is time to label your rat. The labeling system is a bit finicky, but it is a good idea to zoom in and navigate from there. *Be as precise as possible*, this step will greatly influence the accuracy of your model. I usually set the marker size to 3, right click to label the bodypart that is selected. Try to keep your body part labeling consistent. Here is a fully labeled rat. 
+
+<img width="344" alt="image" src="https://user-images.githubusercontent.com/86625869/190881073-8329db73-579c-41b1-9e94-af76b7dd3c8e.png">
+
+Click "save" and "quit" once you have gone through all the frames. 
