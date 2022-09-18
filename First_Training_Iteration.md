@@ -6,3 +6,14 @@ Once you hit "OK", you can minimize the GUI to watch the terminal at work. There
 
 <img width="732" alt="image" src="https://user-images.githubusercontent.com/86625869/190879885-1d526a11-3f5e-4673-8ccd-5cc8adce8a36.png">
 
+You will then receive a completion message. 
+
+<img width="1057" alt="image" src="https://user-images.githubusercontent.com/86625869/190880260-335e96fb-cfb0-43cd-af3d-ef35d2783e2b.png">
+
+You can note that DLC does not reccommend training on single videos. I have not followed this reccomendation exactly for 2 reasons: 1) These videos have thousands of frames, larger than many other behavioral data set and 2) later, when we get to R, we will combine models made from other starting videos as well, effectively using multiple videos but at a different point in the process. 
+
+If you click over to the "Label Frames" tab, the "Labeling Toolbox" window should pop up once you click "Label Frames". 
+
+<img width="1148" alt="image" src="https://user-images.githubusercontent.com/86625869/190880319-aba55a1e-ea41-4f9b-855e-994a6e73d82d.png">
+
+Click "Load Frames", and you should be prompted with a folder where your labeling frames are stored. Click "Open", and after a second, an image of your OFT should appear in the Labeling Toolbox!
