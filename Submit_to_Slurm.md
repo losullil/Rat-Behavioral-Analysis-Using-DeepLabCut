@@ -8,9 +8,33 @@ Navigate back to the Bowdoin HPC Interface. On the drop down menu on the top rig
 
 When you click on this, a new tab should pop up on your browser that looks like a blank terminal window. Now, in just a few short commands, you can submit your job! 
 
-Navigate to your project folder. You should also be able to see your .py and .sh scripts in this folder. Remember, to do this, you can use the $ cd command for change directory. 
+Navigate to your project folder using the following command. 
 
-<img width="1154" alt="image" src="https://user-images.githubusercontent.com/86625869/190883100-57ed9f5b-703b-48eb-a61f-7b833952c826.png">
+$ cd /mnt/research/jhoneycu/_yourname/yourfolder/yourprojectfolder_
 
-Next, navigate into the project specific folder which contains the config.yaml file. 
+If you insert the command 
 
+$ ls 
+
+You should see your config.yaml file, your .py and your .sh scripts. 
+
+To submit your training script, insert the following command. 
+
+$ sbatch -p gpu --gres=gpu:rtx3080:1 --mem=32G train_network.sh
+
+You should receive a notice such as this one.
+
+<img width="248" alt="image" src="https://user-images.githubusercontent.com/86625869/190883487-1ac53b98-d3bf-46fe-9dea-2aa2113872b2.png">
+
+This means your job has submitted! You can see where you are on the queue of jobs by inputting
+
+$ squeue
+
+You should also receive an email a few minutes after your job processes, as well as a completion email when it is done. Sometimes, you will immediately receive an e-mail that the job has failed. This means there is something wrong with a script. To get to the bottom of this, you can input the command
+
+$ tail -f slurm-_job####_.out
+
+You will then view an error message like this. 
+<img width="1379" alt="image" src="https://user-images.githubusercontent.com/86625869/190883644-115046fe-c435-45a4-a6fe-45a1e02af955.png">
+
+You can react accordingly! 
