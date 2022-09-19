@@ -38,3 +38,13 @@ You will then view an error message like this.
 <img width="1379" alt="image" src="https://user-images.githubusercontent.com/86625869/190883644-115046fe-c435-45a4-a6fe-45a1e02af955.png">
 
 You can react accordingly! 
+
+After about 12 hours, you should receive an e-mail from the HPC that says your job is finished. On the interactive HPC grid, you can see a slurm####.out file with your job number. If you open that file, you can see some statistics on how your model improved over the training session. 
+
+<img width="1262" alt="image" src="https://user-images.githubusercontent.com/86625869/191021924-c16f3e2d-5529-4fff-9f8f-76b8090fb5af.png">
+
+The next step is going to be to evaluate your model. Essentially, when you labeled those intially extracted frames, the computer used some of them to train the system (the "train set") and saved some of them to test the initial model (the "test set"). You will need to create an evaluate_network.py and an evaluate_network.sh to be able to submit this to Slurm. See example in the repository. 
+
+Once these files are created, use the $ sbatch command to evaluate. 
+
+After about 12 hours, you should receive an e-mail from the HPC that says your job is finished. On the interactive HPC grid, you can see a slurm####.out file with your job number. If you open that file, you can see some statistics on how your model improved over the training session. 
