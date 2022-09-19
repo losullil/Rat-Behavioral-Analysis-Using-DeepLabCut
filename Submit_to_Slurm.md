@@ -45,6 +45,6 @@ After about 12 hours, you should receive an e-mail from the HPC that says your j
 
 The next step is going to be to evaluate your model. Essentially, when you labeled those intially extracted frames, the computer used some of them to train the system (the "train set") and saved some of them to test the initial model (the "test set"). You will need to create an evaluate_network.py and an evaluate_network.sh to be able to submit this to Slurm. See example in the repository. 
 
-Once these files are created, use the $ sbatch command to evaluate. 
+Once these files are created (after a few minutes), use the $ sbatch command to evaluate. 
 
-After about 12 hours, you should receive an e-mail from the HPC that says your job is finished. On the interactive HPC grid, you can see a slurm####.out file with your job number. If you open that file, you can see some statistics on how your model improved over the training session. 
+When you receive an email saying the evaluation job is complete, it's time to analyze your full video. You will once again create an analyze_network.py and analyze_network.sh file based on the examples in the repositories. It is important to get the file paths correct in your .py scripts here: the first path should be to your config file, then the second should be to your folder containing your project folder. 
