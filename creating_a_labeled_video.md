@@ -7,3 +7,12 @@ $ config = '/mnt/research/jhoneycu/losulliv/KAT_OFT_R/KAT_OFT_R-lucyosullivan-20
 
 Be sure to include that final quotation mark, I always forget! 
 
+Your next command will apply the create video function and direct the computer to your existing videos that you want to be labeled. It will look something like this
+
+$ deeplabcut.create_labeled_video(config, ['/mnt/research/jhoneycu/losulliv/KAT_OFT_R/KAT_OFT_R-lucyosullivan-2022-09-17/videos/'])
+
+Once you press enter, you should see this
+<img width="1283" alt="image" src="https://user-images.githubusercontent.com/86625869/191113696-f6bee5dc-80d4-4ace-bddc-690d33ca032d.png">
+If you just receive a short message before the next line pops up, something is wrong. Make sure your analyze and evaluate scripts were successful. 
+
+When the video is created, it will appear in a new folder on the HPC interface. You may have to download it to be able to view it. 
