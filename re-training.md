@@ -17,3 +17,5 @@ I have had problems with these functions and the processing power of the MATE de
 <img width="504" alt="image" src="https://user-images.githubusercontent.com/86625869/191138536-41e05f1e-7702-4e1a-9c14-ae429139c3f9.png">
 
 Then, just go through frames and adjust labels accordingly. 
+
+Once you are done, hit "Save" and then "Merge Dataset". Then click "OK" to make a new training dataset. Then just re-submit the training!
