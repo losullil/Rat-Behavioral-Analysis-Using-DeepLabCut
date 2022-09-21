@@ -11,6 +11,8 @@ Your next command will apply the create video function and direct the computer t
 
 $ deeplabcut.create_labeled_video(config, ['/mnt/research/jhoneycu/losulliv/KAT_OFT_R/KAT_OFT_R-lucyosullivan-2022-09-17/videos/'])
 
+* BE SURE to include that final backslash, it won't work otherwise * 
+
 Once you press enter, you should see this
 <img width="1283" alt="image" src="https://user-images.githubusercontent.com/86625869/191113696-f6bee5dc-80d4-4ace-bddc-690d33ca032d.png">
 If you just receive a short message before the next line pops up, something is wrong. Make sure your analyze and evaluate scripts were successful. 
