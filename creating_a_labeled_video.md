@@ -18,3 +18,6 @@ If you just receive a short message before the next line pops up, something is w
 When the video is created, it will appear in a new folder on the HPC interface. You may have to download it to be able to view it. 
 
 ![image](https://user-images.githubusercontent.com/86625869/191114066-5470b571-693a-4e12-9d08-445f5c1aa465.png)
+
+
+Error Notes: If you receive a message that there is "no unfiltered data file" found, check the slurm.out files to ensure that your evaluate and anaalyze steps occured correctly. 
