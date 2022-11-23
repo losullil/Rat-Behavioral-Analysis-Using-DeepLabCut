@@ -24,7 +24,14 @@ If you are starting your project from scratch, review the .md files in this orde
 
 7. create_labeled_video.md 
 
-If you are also interested in unsupervised clusters, read this:
+8. re-training.md
+
+If you are also interested in unsupervised clusters, watch this video:
+
+
+
+
+And follow these steps: 
 
 8. Shortening_videos.md 
 
