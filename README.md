@@ -10,8 +10,28 @@ DLC and other softwares can be super daunting, and a lot of people have the misc
 
 If you are starting your project from scratch, review the .md files in this order: 
 
-Start_Using_HPC.md
+1. Start_Using_HPC.md
 
-Transfer_Files_to_HPC.md
+2. Transfer_Files_to_HPC.md
 
-Launch_DLC.md
+3. Launch_DLC.md
+
+4. Create_Project.md
+
+5. First_Training_Iteration.md 
+
+6. Submit_to_Slurm.md (be sure to download .sh and .py files before completing this step)
+
+7. create_labeled_video.md 
+
+If you are also interested in unsupervised clusters, read this:
+
+8. Shortening_videos.md 
+
+9. Create_TimeDensity.R
+
+10. Unsupervised_Cluster.R 
+
+And here is an overview of my own project's process! 
+
+<img width="1415" alt="image" src="https://user-images.githubusercontent.com/86625869/203639909-3d84eaac-2048-4f25-9089-8203b2aeb700.png">
