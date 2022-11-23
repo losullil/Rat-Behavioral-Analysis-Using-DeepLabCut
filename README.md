@@ -28,8 +28,7 @@ If you are starting your project from scratch, review the .md files in this orde
 
 If you are also interested in unsupervised clusters, watch this video:
 
-
-
+https://bowdoin-my.sharepoint.com/:v:/g/personal/losulliv_bowdoin_edu/Ea_P8NWqaHRCrXYjOZrNVVIBYOTvuDbGdNUFGGcmMZZGQw?e=Satztk
 
 And follow these steps: 
 
